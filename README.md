@@ -21,6 +21,7 @@ Crea la estructura de la base de datos basada en los modelos definidos.
 ```bash
 python3 genera_tablas.py
 ```
+![Captura del taller](./capturas/generar_tabla.png)
 
 ### 2.Ingreso de Datos
 Pobla las tablas Club y Jugador procesando los archivos .txt de la carpeta data.
@@ -28,6 +29,7 @@ Pobla las tablas Club y Jugador procesando los archivos .txt de la carpeta data.
 python3 ingreso_datos.py
 ```
 
+![Captura del taller](./capturas/ingreso_datos.png)
 ### 3. Ejecución de Consultas de Datos
 Validación de la información almacenada en el sistema mediante los scripts de consulta previstos.
 
@@ -36,17 +38,21 @@ Validación de la información almacenada en el sistema mediante los scripts de 
 python3 consulta_datos1.py
 ```
 
+![Captura del taller](./capturas/consulta1.png)
 ### Consulta 2
 ```bash
 python3 consulta_datos2.py
 ```
 
+![Captura del taller](./capturas/consulta2.png)
 ### Consulta 3
 ```bash
 python3 consulta_datos3.py
 ```
 
+![Captura del taller](./capturas/consulta3.png)
 ### Consulta 4
 ```bash
 python3 consulta_datos4.py
 ```
+![Captura del taller](./capturas/consulta4.png)
