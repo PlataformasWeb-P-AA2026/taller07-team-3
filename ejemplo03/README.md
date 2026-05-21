@@ -36,50 +36,40 @@ Este repositorio contiene la solución a las actividades del taller práctico so
 
 A continuación se detalla el orden estricto de ejecución de los scripts junto con los espacios asignados para adjuntar las capturas de pantalla como evidencia.
 
-### 1. Generación del Esquema de Base de Datos
-Creación de las tablas basadas en las clases de mapeo.
-```bash
-python clases.py
-```
-
-### 2. Población de Datos con Archivos CSV
-Carga secuencial de registros respetando las restricciones de llaves foráneas.
-
-Orden: Departamentos ➔ Instructores ➔ Cursos ➔ Estudiantes ➔ Inscripciones ➔ Tareas ➔ Entregas.
-
-```bash
-python poblar_base.py
-```
 Evidencia:
 
-### 3. Ejecución y Verificación de Consultas
+### 1. Ejecución y Verificación de Consultas
 ### Consulta 1
 Listar las entregas presentando por cada una: nombre del estudiante, título de la tarea y nombre del profesor.
 
 ```bash
-python consulta1.py
+python3 consulta1.py
 ```
 Evidencia:
+![Captura de pantalla](./capturas/1.png)
 
 ### Consulta 2
 Listar los cursos cuyos profesores tengan la cadena "Zam" en su nombre.
 ```bash
-python consulta2.py
+python3 consulta2.py
 ```
 Evidencia:
+![Captura de pantalla](./capturas/2.png)
 
 ### Consulta 3
 Listar las inscripciones pertenecientes al departamento de "Ciencias de la Computación", presentando: nombre del estudiante, nombre del curso y nombre del profesor.
 ```bash
-python consulta3.py
+python3 consulta3.py
 ```
 Evidencia:
+![Captura de pantalla](./capturas/3.png)
 
 ### Consulta 4
 Listar las tareas asociadas a cada uno de los cursos registrados.
 
 ```bash
-python consulta4.py
+python3 consulta4.py
 ```
 Evidencia:
+![Captura de pantalla](./capturas/4.png)
 
