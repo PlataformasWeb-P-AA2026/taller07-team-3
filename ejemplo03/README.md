@@ -19,3 +19,67 @@ Orden sugerido de carga:
 * consulta2.py: Listar los cursos, obtener los cursos profesores en su nombre tengan la cadena "Zam"
 * consulta3.py: Listar las inscripciones del departamento de Ciencias de la Computación. Por cada inscripción, presentar el nombre del estudiante, el nombre del curso y el nombre del profesor
 * consulta4.py: Por cada curso, presentar sus tareas asociadas.
+
+# Evidencias de Taller: Modelado de Datos y Consultas Complejas (Ejemplo03)
+
+Este repositorio contiene la solución a las actividades del taller práctico sobre el manejo de relaciones múltiples y carga de datos desde archivos CSV utilizando SQLAlchemy ORM.
+
+## Actividades Realizadas
+
+1. **Creación de Entidades:** Configuración del esquema relacional en la base de datos a partir de los modelos definidos en `clases.py`.
+2. **Población de la Base de Datos:** Desarrollo del script de automatización para cargar y procesar los archivos `.csv` en el orden secuencial sugerido.
+3. **Desarrollo de Consultas:** Creación de scripts específicos (`consulta1.py` a `consulta4.py`) para extraer información combinada mediante filtros y uniones (Joins).
+
+---
+
+##  Orden de Ejecución y Evidencias
+
+A continuación se detalla el orden estricto de ejecución de los scripts junto con los espacios asignados para adjuntar las capturas de pantalla como evidencia.
+
+### 1. Generación del Esquema de Base de Datos
+Creación de las tablas basadas en las clases de mapeo.
+```bash
+python clases.py
+```
+
+### 2. Población de Datos con Archivos CSV
+Carga secuencial de registros respetando las restricciones de llaves foráneas.
+
+Orden: Departamentos ➔ Instructores ➔ Cursos ➔ Estudiantes ➔ Inscripciones ➔ Tareas ➔ Entregas.
+
+```bash
+python poblar_base.py
+```
+Evidencia:
+
+### 3. Ejecución y Verificación de Consultas
+### Consulta 1
+Listar las entregas presentando por cada una: nombre del estudiante, título de la tarea y nombre del profesor.
+
+```bash
+python consulta1.py
+```
+Evidencia:
+
+### Consulta 2
+Listar los cursos cuyos profesores tengan la cadena "Zam" en su nombre.
+```bash
+python consulta2.py
+```
+Evidencia:
+
+### Consulta 3
+Listar las inscripciones pertenecientes al departamento de "Ciencias de la Computación", presentando: nombre del estudiante, nombre del curso y nombre del profesor.
+```bash
+python consulta3.py
+```
+Evidencia:
+
+### Consulta 4
+Listar las tareas asociadas a cada uno de los cursos registrados.
+
+```bash
+python consulta4.py
+```
+Evidencia:
+
