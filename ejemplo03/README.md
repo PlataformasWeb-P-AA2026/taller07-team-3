@@ -46,7 +46,7 @@ Listar las entregas presentando por cada una: nombre del estudiante, título de 
 python3 consulta1.py
 ```
 Evidencia:
-![Captura de pantalla](./capturas/1.png)
+![Captura de pantalla](/capturas/1.png)
 
 ### Consulta 2
 Listar los cursos cuyos profesores tengan la cadena "Zam" en su nombre.
@@ -54,7 +54,7 @@ Listar los cursos cuyos profesores tengan la cadena "Zam" en su nombre.
 python3 consulta2.py
 ```
 Evidencia:
-![Captura de pantalla](./capturas/2.png)
+![Captura de pantalla](/capturas/2.png)
 
 ### Consulta 3
 Listar las inscripciones pertenecientes al departamento de "Ciencias de la Computación", presentando: nombre del estudiante, nombre del curso y nombre del profesor.
@@ -62,7 +62,7 @@ Listar las inscripciones pertenecientes al departamento de "Ciencias de la Compu
 python3 consulta3.py
 ```
 Evidencia:
-![Captura de pantalla](./capturas/3.png)
+![Captura de pantalla](/capturas/3.png)
 
 ### Consulta 4
 Listar las tareas asociadas a cada uno de los cursos registrados.
@@ -71,5 +71,5 @@ Listar las tareas asociadas a cada uno de los cursos registrados.
 python3 consulta4.py
 ```
 Evidencia:
-![Captura de pantalla](./capturas/4.png)
+![Captura de pantalla](/capturas/4.png)
 
