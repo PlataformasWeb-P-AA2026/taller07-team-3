@@ -25,7 +25,7 @@ python3 genera_tablas.py
 ### 2.Ingreso de Datos
 Pobla las tablas Club y Jugador procesando los archivos .txt de la carpeta data.
 ```bash
-python ingreso_datos.py
+python3 ingreso_datos.py
 ```
 
 ### 3. Ejecución de Consultas de Datos
@@ -33,20 +33,20 @@ Validación de la información almacenada en el sistema mediante los scripts de 
 
 ### Consulta 1
 ```bash
-python consulta_datos1.py
+python3 consulta_datos1.py
 ```
 
 ### Consulta 2
 ```bash
-python consulta_datos2.py
+python3 consulta_datos2.py
 ```
 
 ### Consulta 3
 ```bash
-python consulta_datos3.py
+python3 consulta_datos3.py
 ```
 
 ### Consulta 4
 ```bash
-python consulta_datos4.py
+python3 consulta_datos4.py
 ```
