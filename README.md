@@ -58,23 +58,3 @@ python3 consulta_datos4.py
 ![Captura del taller](./capturas/consulta4.png)
 
 
-# Evidencias de Taller: Modelado de Datos y Consultas Complejas (Ejemplo03)
-
-Este repositorio contiene la solución a las actividades del taller práctico sobre el manejo de relaciones múltiples y carga de datos desde archivos CSV utilizando SQLAlchemy ORM.
-
-## Actividades Realizadas
-
-1. **Creación de Entidades:** Configuración del esquema relacional en la base de datos a partir de los modelos definidos en `clases.py`.
-2. **Población de la Base de Datos:** Desarrollo del script de automatización para cargar y procesar los archivos `.csv` en el orden secuencial sugerido.
-3. **Desarrollo de Consultas:** Creación de scripts específicos (`consulta1.py` a `consulta4.py`) para extraer información combinada mediante filtros y uniones (Joins).
-
----
-
-##  Orden de Ejecución y Evidencias
-
-A continuación se detalla el orden estricto de ejecución de los scripts junto con los espacios asignados para adjuntar las capturas de pantalla como evidencia.
-
-### 1. Generación del Esquema de Base de Datos
-Creación de las tablas basadas en las clases de mapeo.
-```bash
-python clases.py
